@@ -4,5 +4,5 @@ description: Start IPFS daemon and wait for it to become ready
 runs:
   using: 'composite'
   steps:
-    - uses: ipfs/download-ipfs-distribution-action@v1
+    - uses: ipfs/download-ipfs-distribution-action@7z
     - uses: ipfs/start-ipfs-daemon-action@v1
