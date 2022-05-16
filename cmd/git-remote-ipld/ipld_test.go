@@ -14,7 +14,6 @@ import (
 
 func TestCapabilities(t *testing.T) {
 	tmpdir := setupTest(t)
-	defer os.RemoveAll(tmpdir)
 
 	// git clone ipld::d5b0d08c180fd7a9bf4f684a37e60ceeb4d25ec8
 	args := []string{"git-remote-ipld", "origin", "ipld://QmZVjKhhUrjodywbU4hpCL32M7CR7Sbow2MSqRpB3PGBUe"}
