@@ -5,7 +5,7 @@ import (
 	"os"
 	"path"
 
-	"github.com/dgraph-io/badger"
+	"github.com/dgraph-io/badger/v2"
 )
 
 //Tracker tracks which hashes are published in IPLD
